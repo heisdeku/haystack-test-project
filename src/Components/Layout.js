@@ -6,11 +6,11 @@ const Layout = ({ details }) => {
       <table>
         <thead>
         <tr>
-          <td>PRs</td>
-          <td>Title</td>
-          <td>Body</td>
-          <td>Created At</td>
-          <td>Closed At</td>
+          <th>PRs</th>
+          <th>Title</th>
+          <th>Body</th>
+          <th>Created At</th>
+          <th>Closed At</th>
         </tr>
         </thead>       
         <tbody className="table-body">
