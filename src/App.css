@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+}
+
+.table-container {
+    margin-top: 15px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .table-container {
+        width: 80%;
+    }
+}
+
+.table-container table thead {
+    background-color: rgb(34, 83, 255);
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.table-container table thead tr td {
+    padding: 10px 30px 0;
+    font-size: 20px;
+    width: 20%;
+}
+
+.table-body tr {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+
+.table-body tr td {
+    padding: 0 10px;
+}
+
+.table-body tr {
+    padding-left: 10px;
+    padding-right: 10px;
+}
